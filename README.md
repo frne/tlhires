@@ -1,8 +1,8 @@
 # Tillate Hires herunterladen
 
-### [Reports](https://github.com/frne/tlhires/blob/master/README.md#ganze-reports-downloaden-hires)
+### [Reports](#ganze-reports-downloaden-hires)
 
-### [Getaggte / Abgelegte Bilder](https://github.com/frne/tlhires#getaggte--abgelegte-fotos-herunterladen)
+### [Getaggte / Abgelegte Bilder](#getaggte--abgelegte-fotos-herunterladen)
 
 ## Ganze Reports downloaden (HiRes)
 
