@@ -5,10 +5,10 @@ var link = "http://ch.tilllate.com/de/photoalbum/overview/tagged/" + memberUid;
 jQuery.ajax({
     url: link,
     context: document.body,
-    success: function(responseText) {
+    success: function (responseText) {
         jQuery("body").append("<div id=\"response-div\"></div>");
         jQuery("#response-div").html(responseText);
-        jQuery("#response-div").find("script").each(function(i) {
+        jQuery("#response-div").find("script").each(function (i) {
             eval(jQuery(this).text());
         });
 
@@ -25,3 +25,4 @@ jQuery.ajax({
             }
         });
     }
+});
