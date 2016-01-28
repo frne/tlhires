@@ -1,4 +1,4 @@
-# Tillate Hires herunterladen
+# Tillate Reports herunterladen
 
 ### [Reports](#ganze-reports-downloaden-hires)
 
