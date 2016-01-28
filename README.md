@@ -73,7 +73,7 @@ Die URL sollte so ähnlich ausshen wie diese:
 
 [http://ch.tilllate.com/en/member/function](http://ch.tilllate.com/en/member/function)
 
-![Screenshot 1](img/1.png)
+![Screenshot 1](img/6.png)
 
 ### 2.) Konsole öffnen
 
