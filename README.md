@@ -31,12 +31,21 @@ Kopiert folgendes Script:
 ```javascript
 jQuery("body").html("");
 
+var hires = confirm('Bist du aktiver Fotograf (HiRes Berechtigung)?');
+
 jQuery(album.photos.pictures).each(function (k, v) {
-    console.info(v.url + v.filename + "." + v.filetype);
-    jQuery("body").append(
-        "<a href=\"http://ch.tilllate.com/de/photoalbum/download/hires/" + v.fid + "\" download=\"" + v.fid + v.gid + "." + v.filetype + "\">" +
-        "<img src=\"" + v.url + v.filename + "." + v.filetype + "\" style=\"width: 200px; height: auto;\"/>" +
-        "</a>&nbsp;&nbsp;");
+    if(hires) {
+        jQuery("body").append(
+            "<a href=\"http://ch.tilllate.com/de/photoalbum/download/hires/" + v.fid + "\" download=\"" + v.fid + v.gid + "." + v.filetype + "\">" +
+            "<img src=\"" + v.url + v.filename + "." + v.filetype + "\" style=\"width: 200px; height: auto;\"/>" +
+            "</a>&nbsp;&nbsp;");
+    } else {
+        jQuery("body").append(
+            "<a href=\"" + v.url + v.filename + "." + v.filetype + "\" download=\"" + v.fid + v.gid + "." + v.filetype + "\">" +
+            "<img src=\"" + v.url + v.filename + "." + v.filetype + "\" style=\"width: 200px; height: auto;\"/>" +
+            "</a>&nbsp;&nbsp;");
+    }
+
     if ((k % 4) == 0) {
         jQuery("body").append("<br /><br />");
     }
