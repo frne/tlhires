@@ -49,6 +49,6 @@ Sobald ihr Enter drückt, werden auf der Seite alle Bilder des Reports geladen.
 
 Jetzt könnt ihr einfach die Bilder anklicken, die ihr downloaden wollt, und sie werden als Hires heruntergeladen.
 
-# Getaggte / Abgelegten FOtos herunterladen
+# Getaggte / Abgelegte Fotos herunterladen
 
 Geliches Vorgehen. Jedoch, öffnet ihr eure Memberpage, statt einen Report und führt bei Punkt 3 dieses Script aus: [https://github.com/frne/tlhires/blob/master/download_tagged.js](https://github.com/frne/tlhires/blob/master/download_tagged.js)
