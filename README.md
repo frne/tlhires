@@ -50,7 +50,6 @@ jQuery(album.photos.pictures).each(function (k, v) {
         jQuery("body").append("<br /><br />");
     }
 });
-}
 ```
 
 Und fügt es bei dem kleinen blauen Pfeil im Konsolenfenster ein.
